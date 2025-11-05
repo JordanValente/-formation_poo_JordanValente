@@ -9,7 +9,7 @@ require_once 'Arena.php';
 $creatures = [
         "guerrier" => new Guerrier("LeSpartiate"),
         "mage" => new Mage("HenryPotDeBeurre"),
-        "archer" => new Archer("Legolas")
+        "archer" => new Archer("Lafleche")
 ];
 
 
@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <select name="creature1" id="creature1">
         <option value="guerrier">Guerrier (LeSpartiate)</option>
         <option value="mage">Mage (HenryPotDeBeurre)</option>
-        <option value="archer">Archer (Legolas)</option>
+        <option value="archer">Archer (Lafleche)</option>
     </select>
 
     <br><br>
@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <select name="creature2" id="creature2">
         <option value="guerrier">Guerrier (LeSpartiate)</option>
         <option value="mage">Mage (HenryPotDeBeurre)</option>
-        <option value="archer">Archer (Legolas)</option>
+        <option value="archer">Archer (Lafleche)</option>
     </select>
 
     <br><br>
